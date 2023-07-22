@@ -74,9 +74,9 @@ body{
 
 }
 .plan_box a{
-    font-weight: 900;
+    font-weight: 700;
     color: hsl(223, 67%, 39%);
-    text-decoration: none;
+    
 }
 a.payment_btn{
     display: block;
@@ -86,6 +86,8 @@ a.payment_btn{
     padding: 20px;
     margin-top: 20px;
     border-radius: 10px;
+    margin-bottom: 20px;
+    box-shadow: 0 10px 30px rgb(173, 188, 236)
 }
 a.payment_btn:hover{
     background-color: hsl(244, 60%, 64%);
@@ -98,4 +100,5 @@ a.cancel_btn{
     color:  #8a8a8a;
     font-weight: bold;
     font-size: 10px;
+    
 }
