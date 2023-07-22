@@ -1,3 +1,8 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
 body{
     font-family: 'Red Hat Display', sans-serif;
     margin:0;
@@ -9,6 +14,7 @@ body{
     background-size: contain;
     background-color: hsl(225, 100%, 94%);
     position: relative;
+    font-size: 16px;
 }
 .container{
     position: absolute;
@@ -23,7 +29,73 @@ body{
 
 }
 .summary{
-    padding: 7px;
+    padding: 7%;
     text-align: center;
+    /* align-items: center; */
+}
+.summary_title{
+    color: hsl(223, 47%, 23%);
+    font-weight: 900;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+.title_text{
+    color: #8a8a8a;
+    margin-bottom: 25px;
+}
+.plan_box{
+    background-color: hsl(225, 100%, 98%);
+    border-radius: 10px;
+    display: flex;
+    padding: 25px;
     align-items: center;
+    justify-content: space-between;
+
+}
+.plan_box_left{
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+
+}
+.plan_box_left  div{
+    margin-left: 20px;
+}
+.plan_box_left div h5{
+    font-weight: 900;
+    font-size: 12px;
+    color:  hsl(223, 47%, 23%);
+
+}
+.plan_box_left div p{
+    font-size: 14px;
+    color: #8a8a8a;
+
+}
+.plan_box a{
+    font-weight: 900;
+    color: hsl(223, 67%, 39%);
+    text-decoration: none;
+}
+a.payment_btn{
+    display: block;
+    text-decoration: none;
+    color: white;
+    background-color: hsl(245, 75%, 52%);
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 10px;
+}
+a.payment_btn:hover{
+    background-color: hsl(244, 60%, 64%);
+}
+a.plan_box:hover{
+    color: hsl(244, 60%, 64%);
+}
+a.cancel_btn{
+    text-decoration: none;
+    color:  #8a8a8a;
+    font-weight: bold;
+    font-size: 10px;
 }
